@@ -7,8 +7,10 @@ public class usuarios {
         System.out.println("Canal atual: " + smartTv.canal);
         System.out.println("Volume atual: " + smartTv.volume);
 
-        smartTv.ligar();
+        smartTv.ligar(); smartTv.diminuirVolume(); smartTv.diminuirCanal();
         System.out.println("Novo Status -> TV Ligada? " + smartTv.ligada);
+        System.out.println("Novo Status -> Canal atual: " + smartTv.canal);
+        System.out.println("Novo Status -> Volume atual: " + smartTv.volume);
 
     }
 }
